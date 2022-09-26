@@ -1,3 +1,26 @@
-style
-p {
-  "color; blue"
+HEAD
+/*--This are my styles for my resume */
+h1 {
+    color: #33485e !important;
+  font-size: 3em;
+  font-family: Arial,;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+    color: #33485e; 
+  font-size: 1.5em;
+  background-color: #33485e;
+  font-weight: bold;
+  font-family: Arial;
+  text-align: center;
+  
+}
+p{
+    color: #33485e;
+  font-size: 1em;
+  background-color: #33485e;
+  font-weight: bold;
+  font-family: Arial;
+  text-align: center; 
+}
