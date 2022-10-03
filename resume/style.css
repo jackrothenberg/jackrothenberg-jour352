@@ -1,10 +1,20 @@
 /*--This are my styles for my resume */
-title {
+#title {
   color: #33485e;
   font-size: 1.5em;
   font-family: Arial;
   text-transform: uppercase;
+  font-weight: 600px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
 }
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding-bottom: 50px;
+
+  }
 /*-- name */
 #name {
   color: #33485e !important;
@@ -12,38 +22,72 @@ font-size: 3em;
 font-family: Arial,;
 text-align: center;
 text-transform: uppercase;
+border: 1px;
+border-color: #33485e;
+width: 60%;
+min-width: 300px;
+margin: 0 auto;
+
 }
 /*-- sections titles */
-h2 {
+.sectionheaders {
   color:white; 
-font-size: 1.5em;
+font-size: 1.25em;
 background-color: #33485e;
 font-weight: 400;
 font-family: Arial;
 text-transform: uppercase;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 0px;
+margin-right: 0px;
+width: 70%;
+min-width: 300px;
 }
 /*-- organizations */
-h3 {
+.jobtitles {
   font-size: 1.5em;
   font-weight: 600;
 
 }
 /*-- job titles */
-h4{
+.organizations {
   font-size: 1.5em;
   font-weight: 600;
 }
 /*-- job dates */
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
+  margin: 2px 0px;
 }
 /*-- info */
-p{
+.description {
   color: #33485e;
 font-size: 1em;
 background-color: #33485e;
 font-weight: bold;
 font-family: Arial;
 text-align: center; 
+margin: 10px 0px;
+}
+
+.menu {
+  display: inline;
+
+}
+#degrees {
+  margin: 5px opx 0px;
+
+}
+#do {
+  margin: 5px opx 0px;
+
+}
+.top {
+width: 60%;
+min-width: 300px;
+margin: 0px auto;
+margin-bottom: 30px;
+
 }
