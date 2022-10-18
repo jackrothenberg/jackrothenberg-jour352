@@ -1,0 +1,25 @@
+#content {
+  margin: 0 auto;
+  width: 900px; 
+} 
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  }
+  h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+   font-style: italic;
+  }
+  blockquote {
+    font: 16px/24px helvetica, sans-serif;
+ font-style: italic;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ color: red;
+ margin-left: 50px;
+ padding-left: 15px;
+ border-left: 4px solid #ccc;
+ }
+ 
