@@ -8,4 +8,17 @@ blockquote {
  padding-left: 15px;
  border-left: 4px solid #ccc;
  }
+ /*--This is a really funny quote--*/
  
+ img {
+    max-width: 100%;
+}
+
+#content {
+    text-align: center;
+}
+
+p {
+    font: helvetica, arial, sans-serif;
+    font-size: 15px;
+}
