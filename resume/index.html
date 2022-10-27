@@ -1,42 +1,80 @@
-<!DOCTYPE html>
-<head>
-    <title>Jack's Resume</title>
+<html lang="en">
+  <head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+   
+   <title>Jack's Resume</title>
 
 <link rel="stylesheet" href="style.css">
 
     </head>
-    <body>
-        <div id="title">Jack's Resume</div>
-        <link rel="stylesheet" href="style.css">
-    <div id="name">
-        <h1>Jack Rothenberg</h1>
-    </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Jack Rothenberg</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Bio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Skills</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <body>
+          <img src="restop.svg" alt= "Jack Rothenberg" id="topper">
+          <div class="container">
+            <div class="col-sm-6" style="background-color:red;">
+              <h2>Bio</h2></div>
+              <p>I love journalism, and specifically sports. I wish to become a sports reporter in the future, and take my career to amazing heights!</p>      
+              <div class="row">
 
-    <div class="top">
-        I love journalism, and specifically sports. I wish to become a sports reporter in the future, and take my career to amazing heights!
-    </div>
-
-<img src="composite2.jpg" alt= "Jack Rothenberg" width="300" height="386" img>
 
 <div id="sectionheader">Education</div>
-<p>University of Maryland Student</p>
-<div id="degrees">
-<ul>
-    <li>Wootton High School, High School Diploma</li>
-    <li>University of Maryland, Junior standing</li>
-</ul>
-</div>
+<div class="container">
+    <div class="col-sm-6" style="background-color:red;">
+    <h2>Education</h2></div>
+    <p>University of Maryland, Junior standing, Wootton High School, High School Diploma. </p>      
+    <p>University of Maryland Student</p>      
+    <div class="row">
+      <div class="col-sm-6" style="background-color:red;">
 
-<h3>Contact</h3>
-
+<h2>Contact</h2></div>
 <ul class="menu">
   <li>Email: jackbrothenberg@gmail.com</li> 
   <li>LinkedIn:https://www.linkedin.com/in/jack-rothenberg-357796239/?trk=people-guest_people_search-card</li>
   <li>Twitter:https://twitter.com/rothenberg_jack</li>
   <li>GitHub:https://github.com/jackrothenberg/jackrothenberg-jour352</li>
-</ul>
+</ul><br>
+<div class="col-sm-6" style="background-color:red;">
 
-<div id="sectionheader">Experience</div>
+<div id="sectionheader"><h2>Experience</h2></div></div>
 
 <div class="organization"><b>Washington Commanders</b></div> 
 <div class="jobtitles"><i>Public Relations Assistant</i></div>
@@ -75,12 +113,15 @@
     <li>Co-host a weekly podcast called “The YoungTerps Podcast” discussing University of Maryland sports.</li>
 </ul>
 </div>
-
-<div id="sectionheader">Skills</div>
+<div class="col-sm-6" style="background-color:red;">
+<div id="sectionheader"><h2>Skills</h2></div></div>
 <ul>
     <li>Spanish (Not Fluent)</li>
     <li>Adobe Photoshop</li>
     <li>Excel Functions</li>
 </ul>
+    </div>
+<div class="mt-4 p-5 bg-light text-dark">
+    © Jack Rothenberg (“All Rights Reserved”)
+</body>
 
-    </body>

@@ -5,8 +5,11 @@
   font-family: Arial;
   text-transform: uppercase;
   font-weight: 600px;
-  text-align: center;
+  text-align: left;
   margin: 20px 0px 0px 0px;
+}
+#topper {
+  width: 100%;
 }
 #container {
   width: 100%;
@@ -63,12 +66,12 @@ min-width: 300px;
 }
 /*-- info */
 .description {
-  color: #33485e;
+  background-color: white;
 font-size: 1em;
-background-color: #33485e;
+color: #33485e;
 font-weight: bold;
 font-family: Arial;
-text-align: center; 
+text-align: left; 
 margin: 10px 0px;
 }
 
@@ -90,4 +93,8 @@ min-width: 300px;
 margin: 0px auto;
 margin-bottom: 30px;
 
+}
+.line {
+  border-color: red;
+  border-width: 5px;
 }
