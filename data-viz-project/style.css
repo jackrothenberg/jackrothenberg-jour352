@@ -1,0 +1,62 @@
+.headline {
+  text-align: center;
+  font-weight: bold;
+  color: #D50A0A;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.h1 {
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.byline {
+  text-align: center;
+  font-style: italic;
+}
+
+.h2 {
+  font-size: 30px;
+  color: #D50A0A;
+  text-align: center;
+  font-style: italic;
+  border: 5px solid;
+    border-color: #000000;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.border {
+  border-style: 15px solid;
+  border-color: #D50A0A;
+  padding: 20px
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.container {
+  font-family: georgia;
+  color: #000000;
+}
+
+.pquote {
+  float: center;
+  width: 500px;
+  background: #000000;
+  color: #D50A0A;
+  font-weight: bold;
+  padding: 13px;
+  margin: 0 13px 13px 0;
+  text-align: center;
+}
+
+blockquote {
+  margin: 0; /* gets rid of the default blockquote margin */
+}
