@@ -59,4 +59,6 @@
 
 blockquote {
   margin: 0; /* gets rid of the default blockquote margin */
+  text-align: center;
+  
 }
